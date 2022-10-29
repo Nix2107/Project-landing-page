@@ -1,3 +1,22 @@
+body {
+    font-family: roboto,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+#section-1,
+footer {
+    background-color: #1f2937;
+}
+
+#section-3 {
+   background-color: #e5e7eb;
+}
+
+button,
+.blue-container {
+    background-color: #3882f6;
+}
+
 #logo-img {
     width: 100px;
 }
@@ -8,4 +27,7 @@
 
 .char-image {
     width: 150px;
+}
+.white-text {
+    color: whitesmoke;
 }
