@@ -13,6 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 ul {
@@ -34,8 +35,9 @@ footer {
 
 .section-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
+    padding: 20px;
 }
 
 .section-2 {
@@ -44,17 +46,40 @@ footer {
     align-items: center;
     background-color: white;
     margin: 0;
+    padding: 20px;
 }
 
 #card-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.char-image {
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.card {
+    margin: 20px;
 }
 
 .section-3 {
    background-color: #e5e7eb;
    margin: 0;
+   padding: 20px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.quoter {
+    text-align: right;
+    font-weight: 800;
 }
 
 .section-4 {
@@ -62,15 +87,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .blue-container {
-    display: flex
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 button,
 .blue-container {
     background-color: #3882f6;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 #logo-img {
@@ -86,4 +116,18 @@ button,
 }
 .white-text {
     color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+}
+
+#button {
+    height: fit-content;
+    margin: 30px;
+    padding: 5px;
+}
+
+.button {
+    padding: 5px;
 }
